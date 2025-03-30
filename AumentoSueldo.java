@@ -77,7 +77,10 @@ public class AumentoSueldo {
 	    }
 
 	private static int pedirAñosEnEmpresa(Scanner scanner) {
+
 		System.out.print("Introduce los años que llevas en la empresa: ");
+
+
 		int tiempoEnLaEmpresa = scanner.nextInt();
 		return tiempoEnLaEmpresa;
 	}
